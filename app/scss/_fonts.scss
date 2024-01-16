@@ -1,48 +1,48 @@
 @font-face {
-  font-family: "Montserrat-Regular";
+  font-family: "Cardo-Regular";
   font-weight: 400;
   font-style: normal;
-  src: local("Montserrat-Regular"),
-    url(../fonts/Montserrat/woff2/Montserrat-Light.woff2),
-    url(../fonts/Montserrat/woff/Montserrat-Regular.woff);
+  src: local("Cardo-Regular"), url(../fonts/Cardo/Cardo-Regular.woff2),
+    url(../fonts/Cardo/Cardo-Regular.woff);
   font-display: swap;
 }
-
 @font-face {
-  font-family: "Montserrat-ExtraBold";
-  font-weight: 800;
+  font-family: "Cardo-Bold";
+  font-weight: 700;
   font-style: normal;
-  src: local("Montserrat-ExtraBold"),
-    url(../fonts/Montserrat/woff2/Montserrat-ExtraBold.woff2),
-    url(../fonts/Montserrat/woff/Montserrat-ExtraBold.woff);
+  src: local("Cardo-Bold"), url(../fonts/Cardo/Cardo-Bold.woff2),
+    url(../fonts/Cardo/Cardo-Bold.woff);
   font-display: swap;
 }
-
 @font-face {
-  font-family: "Montserrat-Bold";
+  font-family: "Cardo-Italic";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Cardo-Italic"), url(../fonts/Cardo/Cardo-Italic.woff2),
+    url(../fonts/Cardo/Cardo-Italic.woff);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Inter-Regular"), url(../fonts/Inter/Inter-Regular.woff2),
+    url(../fonts/Inter/Inter-Regular.woff);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter-Light";
+  font-weight: 300;
+  font-style: normal;
+  src: local("Inter-Light"), url(../fonts/Inter/Inter-Light.woff2),
+    url(../fonts/Inter/Inter-Light.woff);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter-Bold";
   font-weight: 600;
   font-style: normal;
-  src: local("Montserrat-ExtraBold"),
-    url(../fonts/Montserrat/woff2/Montserrat-Bold.woff2),
-    url(../fonts/Montserrat/woff/Montserrat-Bold.woff);
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat-Light", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  src: local("Montserrat-Light"),
-    url(../fonts/Montserrat/woff2/Montserrat-Light.woff2) format("woff2"),
-    url(../fonts/Montserrat/woff/Montserrat-Light.woff) format("woff");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "TTNoms-Regular", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  src: local("TTNorms-Regular"),
-    url(../fonts/TTNorms/TTNorms-Regular.woff) format("woff");
+  src: local("Inter-Bold"), url(../fonts/Inter/Inter-Bold.woff2),
+    url(../fonts/Inter/Inter-Bold.woff);
   font-display: swap;
 }

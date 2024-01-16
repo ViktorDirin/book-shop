@@ -1,13 +1,33 @@
-// $accent: #fe3e57;
-// $defoult: #8d8d8d;
-// $title: #29282d;
-// $bg: #f6f6f6;
+$accent: #ffca42;
+$defoult: #969aa0;
+$dblue: #1b3764;
+$bg: #f4f8ff;
 // $border: #ececec;
 
-// %quicksand-400{
-//     font-family: 'Quicksand-Regular', sans-serif;
-//     font-weight: 400;
-// }
+%cardo-400 {
+  font-family: "Cardo-Regular", sans-serif;
+  font-weight: 400;
+}
+%cardo-700 {
+  font-family: "Cardo-Bold", sans-serif;
+  font-weight: 700;
+}
+%cardo-i {
+  font-family: "Cardo-Italic", sans-serif;
+  font-weight: 400;
+}
+%inter-400 {
+  font-family: "Inter-Regular", sans-serif;
+  font-weight: 400;
+}
+%inter-600 {
+  font-family: "Inter-Bold", sans-serif;
+  font-weight: 600;
+}
+%inter-l {
+  font-family: "Inter-Light", sans-serif;
+  font-weight: 300;
+}
 
 // %btn{
 //     cursor: pointer;

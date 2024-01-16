@@ -4,16 +4,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog web</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>Book Shop</title>
+    <link rel="icon" type="image/x-icon" href="images/icons/logo.svg">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-    <header class="header"></header>
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__inner-left">
+                <div class="header__logo">
+                    <img class="header__logo-img" src="images/icons/logo-pages.svg" alt="logo image">
+                </div>
+                <div class="header__social">
+                    <a class="header__social-item" href="#">
+                        <img class="header__social-img" src="images/icons/facebook.svg" alt="facebook icon">
+                    </a>
+                    <a class="header__social-item" href="#">
+                        <img class="header__social-img" src="images/icons/twitter.svg" alt="twitter icon">
+                    </a>
+                    <a class="header__social-item" href="#">
+                        <img class="header__social-img" src="images/icons/inlinked.svg" alt="inlinked icon">
+                    </a>
+                </div>
+            </div>
+            <div class="header__inner-right">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#">
+                            About
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#">
+                            Pages
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-link" href="#">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+                <div class="header__cart">
+                    <a class="header__cart-link" href="#">
+                        <img class="header__cart-img" src="images/icons/cart.svg" alt="shoping cart">
+                    </a>
+                </div>
+                <button class="order-btn">Order Today</button>
+            </div>
+
+        </div>
+    </header>
 
     <main class="main">
+
+        <section class="welcome">
+            <div class="container">
+                <div class="welcome__inner">
+                    <div class="welcome__info">
+                        <h2 class="welcome__info-subtitle">
+                            Welcome to Pages!!!
+                        </h2>
+                        <h1 class="welcome__info-title">
+                            Your Books From <br>
+                            The Best Writer.
+                        </h1>
+                        <p class="welcome__info-text">
+                            We believe that reading books are essential to a healthy culture. <br> They’re where authors
+                            can
+                            connect with readers.
+                        </p>
+                        <div class="welcome__info-links">
+                            <button class="order-btn">order today</button>
+                            <a class="welcome__info-link" href="#">
+                                Read Free Demo
+                            </a>
+                        </div>
+                        <ul class="welcome__info-stats">
+                            <li class="welcome__info-stats-item">
+                                <h3 class="welcome__info-stats-title">
+                                    Pages:
+                                </h3>
+                                <p class="welcome__info-stats-text">
+                                    250pages
+                                </p>
+                            </li>
+                            <li class="welcome__info-stats-item">
+                                <h3 class="welcome__info-stats-title">
+                                    Length:
+                                </h3>
+                                <p class="welcome__info-stats-text">
+                                    Length:
+                                </p>
+                            </li>
+                            <li class="welcome__info-stats-item">
+                                <h3 class="welcome__info-stats-title">
+                                    Rating:
+                                </h3>
+                                <p class="welcome__info-stats-text">
+                                    4.5/5 (305 ratings)
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="welcome__image">
+                        <img class="welcome__inner-img" src="images/welcome-image.jpg" alt="the dark light book image">
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 
