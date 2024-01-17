@@ -18,15 +18,44 @@ main {
   padding: 0 20px;
 }
 
+.section__title {
+  position: relative;
+  color: $dblue;
+  text-align: center;
+  @extend %cardo-400;
+  font-size: 42px;
+  line-height: 50.4px;
+  text-transform: capitalize;
+  margin-bottom: 36px;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 3px;
+    bottom: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $accent;
+  }
+}
+
 .order-btn {
   padding: 18px 52px;
   background-color: $accent;
-  color: #1b3764;
+  color: $dblue;
   @extend %cardo-400;
   letter-spacing: 0.57px;
   text-transform: capitalize;
   &:hover {
     cursor: pointer;
     color: #ffffff;
+  }
+  &-white {
+    background-color: #ffffff;
+    border: 2px solid $accent;
+    &:hover {
+      color: $dblue;
+      box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+    }
   }
 }
