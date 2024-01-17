@@ -248,12 +248,10 @@
     align-items: center;
   }
   &__photo {
-    position: relative;
     width: 525px;
-    height: 625px;
+    height: 605px;
     margin-left: 40px;
     margin-right: 150px;
-    border: 10px solid $accent;
   }
   &-img {
     position: absolute;
@@ -265,23 +263,6 @@
     box-shadow: 0px 0px 20px 0px rgba(27, 55, 100, 0.3);
   }
   &__info {
-    &-title {
-      position: relative;
-      color: $dblue;
-      @extend %cardo-400;
-      font-size: 42px;
-      line-height: 50.4px;
-      margin-bottom: 58px;
-      &::after {
-        position: absolute;
-        content: "";
-        width: 50px;
-        height: 3px;
-        bottom: -23px;
-        left: 0;
-        background-color: $accent;
-      }
-    }
     &-text {
       width: 560px;
       margin-bottom: 34px;
@@ -343,6 +324,193 @@
 }
 
 // ----------------------------------- ABOUT AUTHOR END ------------------------
+
+// ----------------------------------- TRUSTED ------------------------
+
+.trusted {
+  padding: 110px 0 128px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  &__item {
+    &-img {
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    &-title {
+      color: $dblue;
+      text-align: center;
+      @extend %cardo-400;
+      font-size: 24px;
+      line-height: 28.8px;
+      margin-bottom: 20px;
+    }
+    &-text {
+      width: 268px;
+      text-align: center;
+    }
+  }
+}
+
+// ----------------------------------- TRUSTED END ------------------------
+
+// ----------------------------------- GET BOOK ------------------------
+
+.getbook {
+  padding: 70px 0;
+  background-color: $dblue;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__info {
+    &-title {
+      color: #ffffff;
+    }
+    &-text {
+      max-width: 538px;
+      margin-bottom: 27px;
+    }
+    &-btn {
+      color: #ffffff;
+      &:hover {
+        color: #ffffff;
+        box-shadow: 0px 0px 6px 0px $accent;
+      }
+    }
+  }
+}
+
+// ----------------------------------- GET BOOK END ------------------------
+
+// ----------------------------------- LEARN ------------------------
+
+.learn {
+  padding: 140px 0;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+  }
+  &__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+    grid-gap: 30px;
+    &-item {
+      display: inline-block;
+      width: 300px;
+      height: 272px;
+      padding: 30px;
+      color: $dblue;
+      @extend %cardo-400;
+      background-color: $bg;
+    }
+    &-num {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: $accent;
+      text-align: center;
+      font-size: 23px;
+      line-height: 50px;
+      margin-bottom: 30px;
+    }
+    &-text {
+      font-size: 24px;
+      line-height: 33.6px; /* 140% */
+    }
+  }
+  &__photo {
+    width: 535px;
+    height: 628px;
+    &-img {
+      top: -20px;
+      left: -20px;
+      // width: 525px;
+      // height: auto;
+    }
+  }
+}
+
+// ----------------------------------- LEARN END ------------------------
+
+// ----------------------------------- ENCHANCE ------------------------
+
+.enchance {
+  padding: 116px 0 130px;
+  background-color: $bg;
+  &__inner {
+    margin: 70px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+  &__item {
+    padding: 42px 40px;
+    background-color: #ffffff;
+    &-title {
+      color: $dblue;
+      @extend %cardo-400;
+      font-size: 24px;
+      line-height: 28.8px;
+      margin-bottom: 20px;
+    }
+    &-text {
+      line-height: 32px;
+    }
+    &-data {
+      display: inline-block;
+      margin-right: 45px;
+      &-title {
+        position: relative;
+        display: inline-block;
+        padding-left: 26px;
+        color: $dblue;
+        @extend %cardo-400;
+        font-size: 22px;
+        line-height: 30.8px;
+        margin-right: 10px;
+        &::before {
+          position: absolute;
+          content: "";
+          width: 16px;
+          height: 16px;
+          left: 0;
+          top: 7px;
+          border-radius: 50%;
+          background-color: $accent;
+        }
+      }
+      &-count {
+        font-size: 17px;
+        line-height: 27px;
+      }
+    }
+  }
+  &__button,
+  &__question {
+    display: block;
+    margin: 0 auto;
+  }
+  &__question {
+    width: fit-content;
+    text-align: center;
+    margin-top: 34px;
+    &-link {
+      color: $dblue;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// ----------------------------------- ENCHANCE END ------------------------
 
 // ----------------------------------- FOOTER ------------------------
 
