@@ -702,6 +702,91 @@
 // ----------------------------------- FOOTER ------------------------
 
 .footer {
+  background-color: $dblue;
+  &__inner {
+    padding: 90px 0 90px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo {
+    margin-bottom: 20px;
+  }
+  &__social {
+    &-item {
+      background-color: transparent;
+      border: 1px solid $accent;
+    }
+    &-img {
+      filter: invert(0%) sepia(98%) saturate(0%) hue-rotate(49deg)
+        brightness(100%) contrast(100%);
+    }
+  }
+  &__menu {
+    &-list {
+      color: #ffffff;
+    }
+    &-title {
+      @extend %cardo-400;
+      font-size: 24px;
+      line-height: 33.6px;
+      letter-spacing: 0.384px;
+      margin-bottom: 24px;
+    }
+    &-item {
+      position: relative;
+      padding-left: 40px;
+      color: #b4c7e7;
+      @extend %inter-400;
+      line-height: 30.6px;
+      letter-spacing: 0.18px;
+      &:not(:last-child) {
+        margin-bottom: 9px;
+      }
+      &::before {
+        position: absolute;
+        content: "";
+        width: 16px;
+        height: 2px;
+        top: 50%;
+        left: 12px;
+        transform: translateY(-50%);
+        background-image: url(../images/icons/footer-item-decor.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+  &__contacts {
+    &-item {
+      display: flex;
+      &:not(:last-child) {
+        margin-bottom: 28px;
+      }
+    }
+    &-name {
+      display: inline-block;
+      width: 110px;
+      color: #ffffff;
+      @extend %cardo-400;
+      letter-spacing: 0.36px;
+    }
+    &-text {
+      display: inline-block;
+      color: #b4c7e7;
+      letter-spacing: 0.18px;
+    }
+  }
+  &__copyright {
+    color: #b4c7e7;
+    text-align: center;
+    @extend %inter-400;
+    letter-spacing: 0.17px;
+    margin-bottom: 24px;
+    &-span {
+      color: #fff;
+    }
+  }
 }
 
 // ----------------------------------- FOOTER END --------------------
